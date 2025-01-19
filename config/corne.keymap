@@ -105,6 +105,11 @@
             bindings = <&kp LESS_THAN>;
             key-positions = <2 14>;
         };
+
+        mute {
+            bindings = <&kp K_MUTE>;
+            key-positions = <41 40>;
+        };
     };
 
     keymap {
@@ -112,10 +117,10 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp Q  &kp W           &hm EQUAL E       &kp R             &kp T        &kp Y  &kp U             &kp I          &hm O O          &hm QUESTION P      &kp BSPC
-&kp LEFT_SHIFT  &kp A  &hm LEFT_ALT S  &hm EXCL D        &hm LEFT_SHIFT F  &kp G        &kp H  &hm RSHIFT J      &hm RCTRL K    &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
-&kp LCTRL       &kp Z  &kp X           &kp C             &kp V             &kp B        &kp N  &kp M             &kp COMMA      &kp DOT          &kp FSLH            &kp ESC
-                                       &kp LEFT_COMMAND  &kp SPACE         &lt 2 ENTER  &mo 3  &ltq 2 BACKSPACE  &kp BACKSPACE
+&kp TAB         &kp Q  &kp W           &hm EQUAL E       &kp R             &kp T      &kp Y      &kp U                &kp I        &hm O O          &hm QUESTION P      &kp BSPC
+&kp LEFT_SHIFT  &kp A  &hm LEFT_ALT S  &hm EXCL D        &hm LEFT_SHIFT F  &kp G      &kp H      &hm RSHIFT J         &hm RCTRL K  &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
+&kp LCTRL       &kp Z  &kp X           &kp C             &kp V             &kp B      &kp N      &kp M                &kp COMMA    &kp DOT          &kp FSLH            &kp ESC
+                                       &kp LEFT_COMMAND  &lt 1 C_VOL_UP    &kp SPACE  &kp ENTER  &lt 2 C_VOLUME_DOWN  &mo 3
             >;
         };
 
